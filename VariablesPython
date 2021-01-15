@@ -1,0 +1,33 @@
+#This is a comment in python, python ignores everything I type here
+#Hey python, you suck ass. See? It didn't read, otherwise it would be offended.
+
+#NECESSARY VOCAB
+#string - anything between two sets of "" or ''
+#integer - counting number
+#float - mixed decimal numbers
+#Boolean - true or false
+#nonetypes - none, just nothing
+
+#One of the fundamental objects in python is the variable. We define a variable
+#like so:
+
+x = "MyBigBrainVariable"
+#X has a string value
+
+#notice that there is an identifier on the left side of the assignment operator (=)
+#we can call the variable by it's identifier like so
+
+print(x)
+
+#If you pass the identifier through the print function it appears on the screen.
+
+#the variables are reasignable, meaning I can change x to equal anything else
+x = 1.974580
+x = 76
+x = "string"
+x = false
+
+#You can change the data type of a variable like so
+x = float(x)
+x = str(x)
+x = int(x)
